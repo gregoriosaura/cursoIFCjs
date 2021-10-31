@@ -1,0 +1,23 @@
+{
+  "name": "cursoIFCjs",
+  "version": "1.0.0",
+  "description": "Curso BIMrras\r #Super repository testing git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregoriosaura/cursoIFCjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregoriosaura/cursoIFCjs/issues"
+  },
+  "homepage": "https://github.com/gregoriosaura/cursoIFCjs#readme",
+  "dependencies": {
+    "web-ifc": "0.0.26"
+  }
+}
