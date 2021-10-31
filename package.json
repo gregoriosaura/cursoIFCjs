@@ -4,7 +4,8 @@
   "description": "Curso BIMrras\r #Super repository testing git",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build" : "rollup -c",
+    "watch" : "rollup -c -w"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "homepage": "https://github.com/gregoriosaura/cursoIFCjs#readme",
   "dependencies": {
     "web-ifc": "0.0.26"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "rollup": "^2.58.3"
   }
 }
