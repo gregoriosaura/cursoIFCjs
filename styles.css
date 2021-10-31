@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Courier, monospace;
+}
+
+h1 {
+    margin: 2rem;
+}
+
+input {
+    visibility: hidden;
+}
+
+.container {
+    top: 2rem;
+    bottom: 2rem;
+    left: 2rem;
+    right: 2rem;
+    position: absolute;
+    width: 80vw;
+    height: calc(100% - 10rem);
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 1rem;
+}
+
+.button{
+    border: solid 1px black;
+    width: 4rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.button:hover {
+    background-color: rgb(196, 196, 196);
+}
+
+.result-container {
+    margin: 1rem;
+    background-color: thistle;
+    width: calc(100% - 2rem);
+    height: calc(100% - 15rem);
+}
